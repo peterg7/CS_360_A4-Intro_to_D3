@@ -65,6 +65,15 @@ yAxisGroup.append('text')
         .text(yParams.label);
 
 
+const titleGroup = canvas.append("text")
+        .attr("x", (SCREEN_DIMENSIONS.innerWidth / 2))             
+        .attr("y", 0 - (SCREEN_DIMENSIONS.topMargin / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "24px") 
+        .style("text-decoration", "underline")  
+        .text("Top 10 Communities with the Most Installed Thermostats");
+
+
 const row = d => {
     return {
         communityName: d['COMMUNITY AREA NAME'],
