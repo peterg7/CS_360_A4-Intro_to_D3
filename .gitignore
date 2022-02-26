@@ -6,9 +6,6 @@
 # Icon must end with two \r
 Icon
 
-# Ignore data files
-data/
-
 
 # Thumbnails
 ._*
