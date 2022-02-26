@@ -1,4 +1,7 @@
 
+// NOTE: Used reference `http://bl.ocks.org/jfreels/6816504`
+
+
 const SCREEN_DIMENSIONS = { 
     width: 960,
     height: 500,

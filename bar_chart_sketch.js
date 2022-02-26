@@ -1,4 +1,6 @@
 
+// NOTE: Used reference `https://bl.ocks.org/curran/e842c1b64974666c60fc3e437f8c8cf9`
+
 const NUM_COMMUNITIES = 10;
 const SCREEN_DIMENSIONS = { 
     width: 960,
